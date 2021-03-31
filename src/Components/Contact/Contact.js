@@ -11,6 +11,7 @@ import { useForm } from "react-hook-form";
 import background from "../Contact/background.jpg";
 
 import { Jumbotron } from "react-bootstrap";
+
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const { register, handleSubmit, errors } = useForm();
