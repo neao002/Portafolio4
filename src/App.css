@@ -16,21 +16,21 @@ body {
 
 /*navbar mylogo */
 
-.mylogo {
-  width: 10rem;
-  border-radius: 20%;
-}
-
-.logoName {
-  color: rgb(209, 55, 55);
-  margin-top: 10px;
-  font-family: cursive;
-  font-weight: 500;
-  font-style: oblique;
+.navbarbrand img {
+  width: 14rem;
+  bottom: 10px;
+  position: absolute;
 }
 
 .container {
   z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .navbarbrand img {
+    width: 13rem;
+    margin-left: 2rem;
+  }
 }
 
 /*navbar menu links */
@@ -85,7 +85,7 @@ body {
 
 .header-wrager {
   position: relative;
-  background: url(header.png);
+  background: url(headerbeach.jpg);
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -110,6 +110,7 @@ body {
   color: var(--primary-green);
   font-weight: bold;
   text-transform: uppercase;
+  text-shadow: 2px 3px black;
 }
 
 @media (max-width: 768px) {
@@ -124,6 +125,7 @@ body {
   font-size: 3rem;
   color: var(--primary-red);
   font-weight: bold;
+  text-shadow: 3px 3px var(--primary-yellow);
 }
 
 @media (max-width: 768px) {
@@ -471,6 +473,21 @@ body {
   font-weight: bold !important;
 }
 
+/* MEDIA */
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
 /* footer */
 
 .footer {
@@ -507,4 +524,11 @@ body {
   border-radius: 7px;
   box-shadow: 4px 4px 3px #333;
   transition: 0.2s;
+}
+
+.fa-github {
+  font-size: 4rem !important;
+  /* position: absolute;
+  left: 112%;
+  bottom: 23%; */
 }

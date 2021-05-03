@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import Nico from "./nicologo.png";
 
 import { Link } from "react-scroll";
 
@@ -10,7 +11,7 @@ const Nabar = () => {
     <Navbar bg="dark" expand="lg">
       <div className="container " variant="light">
         <Navbar.Brand className="navbarbrand" href="#home">
-          <h1 className="logoName">Nico Alvarez</h1>
+          <img className="mylogonico" src={Nico} alt="nico" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic" />
         <Navbar.Collapse id="basic-navbar-nav">

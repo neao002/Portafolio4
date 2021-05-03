@@ -26,13 +26,14 @@ const Portafolio = () => {
         />
         <p>here talk about project</p>
         <b>Github: </b>
+
         <a
           className="recordshop-link"
           onClick={() =>
             window.open("https://github.com/neao002/RecordShop-with_react")
           }
         >
-          https://reactproject-fbw41-1.github.io/Record-Shop-project/#/"
+          "https://reactproject-fbw41-1.github.io/Record-Shop-project/#/"
         </a>
       </>
     );
@@ -153,7 +154,7 @@ const Portafolio = () => {
     <div>
       <div id="Portafolio" className="portafolio-wrapper mt-2">
         <div className="container">
-          <h1 className="text-uppercase text-center py-5">Portafolio</h1>
+          <h1 className="text-uppercase text-center py-5">Portfolio</h1>
           <div className="image-box-wrapper row justify-content-center">
             <div className="portafolio-image-box" onClick={PopupBoxRecordShop}>
               <img

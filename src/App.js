@@ -3,6 +3,8 @@ import "./App.css";
 // bootstrap Link
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { BrowserRouter } from "react-router-dom";
+
 //components
 import Navbar from "./Components/Navbar/navbar";
 import Header from "./Components/header/header";
@@ -20,35 +22,37 @@ import Partycles from "react-particles-js";
 function App() {
   return (
     <div>
-      <Partycles
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900,
+      <BrowserRouter basename="/calendar">
+        <Partycles
+          params={{
+            particles: {
+              number: {
+                value: 30,
+                density: {
+                  enable: true,
+                  value_area: 900,
+                },
+              },
+              shape: {
+                type: "star",
+                stroke: {
+                  width: 6,
+                  color: "#fff",
+                },
               },
             },
-            shape: {
-              type: "star",
-              stroke: {
-                width: 6,
-                color: "#fff",
-              },
-            },
-          },
-        }}
-      />
-      <Navbar></Navbar>
-      <Header></Header>
-      <Aboutme></Aboutme>
-      <Services></Services>
-      <Experience />
-      <Portafolio />
-      <Contact />
+          }}
+        />
+        <Navbar></Navbar>
+        <Header></Header>
+        <Aboutme></Aboutme>
+        <Services></Services>
+        <Experience />
+        <Portafolio />
+        <Contact />
 
-      <Footer />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

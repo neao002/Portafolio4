@@ -5,14 +5,15 @@ const Header = () => {
   return (
     <div id="home" className="header-wrager">
       <div className="main-info">
-        <h1>Lets check this out</h1>
+        <h1>Hey there!</h1>
+        <h1>Im Nicolás, Full Stack MERN Developer!</h1>
         <Typed
           className="typed-Text"
           strings={[
             "Web Design",
             "Web Development",
-            "Facebook Adds",
-            "Google Adds",
+            "Git-Hub",
+            "Backend Development",
           ]}
           typeSpeed={40}
           backSpeed={60}

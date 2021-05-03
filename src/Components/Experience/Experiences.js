@@ -10,68 +10,43 @@ const Experiences = () => {
           <div className="timeline-block timeline-block-right">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>2016-2017</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
+              <h3>2020-2021</h3>
+              <p>Full Stack MERN Developer in DCI Digital Career Institute.</p>
             </div>
           </div>
           {/* - */}
           <div className="timeline-block timeline-block-left">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>2016-2019</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
+              <h3>2009-2012</h3>
+              <p>Bachelor's Degree in Hotel, Administration and Management.</p>
             </div>
           </div>
           {/* - */}
           <div className="timeline-block timeline-block-right">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>2016-2021</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
+              <h3>2007-2008</h3>
+              <p>Culinary Degree. ICC - Instituto Culinario de Caracas</p>
             </div>
           </div>
           {/* - */}
           <div className="timeline-block timeline-block-left">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>2016-2020</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
+              <h3>2015-2019</h3>
+              <p>Kitchen Head Chef.Holy Flat-Berlin</p>
             </div>
           </div>
           {/* - */}
           <div className="timeline-block timeline-block-right">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>2016-2020</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
+              <h3>2014-2015</h3>
+              <p>Logistics and Organization Specialist. Apoio.co - Berlin</p>
             </div>
           </div>
           {/* - */}
-          <div className="timeline-block timeline-block-left">
-            <div className="marker"></div>
-            <div className="timeline-content">
-              <h3>2016-2020</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-                praesentium?
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
