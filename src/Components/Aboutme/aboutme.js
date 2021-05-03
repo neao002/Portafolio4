@@ -14,10 +14,12 @@ const Aboutme = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">Who am I?</h1>
           <p>
-            I'm Currently finishing my Full MERN stack year course in Digital
-            Career Institute.. I'm passionate about researching and developing
-            frontend and backend projects. I'm constantly researching about new
-            technologies so I can stay up to date.
+            My name Is Nicolás Álvarez, well known as Nico, im from
+            Venezuela-Caracas and I'm Currently finishing my Full MERN stack
+            year course in Digital Career Institute.. I'm passionate about
+            researching and developing frontend and backend projects. I'm
+            constantly researching about new technologies so I can stay up to
+            date.
           </p>
         </div>
       </div>

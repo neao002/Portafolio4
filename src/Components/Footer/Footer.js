@@ -1,59 +1,57 @@
 import React from "react";
+import { Nav, Navbar } from "react-bootstrap";
 
-//npm install react-share --save
-import {
-  EmailShareButton,
-  EmailIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-} from "react-share";
+import Nico from "./nicologo.png";
 
 function Footer() {
   return (
     <div>
-      <div className="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="d-flex mr-5">
-                <p>
-                  <span className="bg-green"> Address: </span> : Hoeppner
-                  Strasse Berlin. 12101
-                </p>
-              </div>
-              <div className="d-flex">
-                <p href="Tel: 202-292-202"> Mobile Phone :+49 0163 962 81 28</p>
-              </div>
-              <div className="d-flex">
-                <p>Email : neao002@gmail.com</p>
-              </div>
-            </div>
+      <footer class="footer-distributed">
+        <div class="footerlogo">
+          <img src={Nico} alt="nico" />
+        </div>
+        <div class="footer-left">
+          <p class="footer-links">
+            <a href="#">Home</a>·<a href="#">Blog</a>·<a href="#">Pricing</a>·
+            <a href="#">About</a>·<a href="#">Faq</a>·<a href="#">Contact</a>
+          </p>
+          <p class="footer-company-name">Nico Alvarez &copy; 2021</p>
+        </div>
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>
+              <span></span> Berlin
+            </p>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-            <h2>Stay Connected with me!</h2>
-            <div className="ml-5 d-flex justify-content-center">
-              <a target="_blank" href="https://github.com/neao002">
-                <i id="gitHubLogo" className="fab fa-github" title="GitHub"></i>
-              </a>
-
-              <EmailShareButton url={"https://mail.google.com/mail/u/0/#inbox"}>
-                <EmailIcon className="mx-3" />
-              </EmailShareButton>
-              <LinkedinShareButton
-                url={
-                  "https://www.linkedin.com/in/nicolas-%C3%A1lvarez-609bb9165/"
-                }
-              >
-                <LinkedinIcon className="mx-3" />
-              </LinkedinShareButton>
-            </div>
-            <p className="mt-5">
-              Copyright&copy;{new Date().getFullYear()}
-              &nbsp; Nicolás Alvarez
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+49 0163-9628128</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="https://www.gmail.com">neao002@gmail.de</a>
             </p>
           </div>
         </div>
-      </div>
+        <div class="footer-right">
+          <div class="footer-icons">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

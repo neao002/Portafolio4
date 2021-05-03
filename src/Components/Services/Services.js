@@ -21,7 +21,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
               </div>
-              <h3>Web-Development</h3>
+              <h3>Front-End</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Services = () => {
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faCoffee} size="2x" />
               </div>
-              <h3>Cook Sessions</h3>
+              <h3>Back-End</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
