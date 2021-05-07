@@ -24,7 +24,7 @@ const Portafolio = () => {
           src={Project3}
           alt="Record Shop-with_react"
         />
-        <p>here talk about project</p>
+        <p className="mt-5"> Vinilo Shop created with React.</p>
         <b>Github: </b>
 
         <a
@@ -59,7 +59,7 @@ const Portafolio = () => {
           src={Project1}
           alt="Pop up Box Burger"
         />
-        <p>here talk about project</p>
+        <p className="mt-5">Check Github for more details</p>
         <b>Github: </b>
         <a
           className="recordshop-link"
@@ -92,7 +92,7 @@ const Portafolio = () => {
           src={Project2}
           alt="Pop u pTrack Expenses"
         />
-        <p>here talk about project</p>
+        <p className="mt-5">Check Github for more details</p>
         <b>Github: </b>
         <a
           className="recordshop-link"
@@ -126,7 +126,7 @@ const Portafolio = () => {
           src={Project4}
           alt="Pop up You Tv"
         />
-        <p>here talk about project</p>
+        <p className="mt-5">Check Github for more details</p>
         <b>Github: </b>
         <a
           className="recordshop-link"

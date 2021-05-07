@@ -8,6 +8,7 @@ import {
   faCoffee,
   faDesktop,
   faFileCode,
+  faFaHtml5,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
@@ -22,16 +23,30 @@ const Services = () => {
                 <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
               </div>
               <h3>Front-End</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="frontEndIcon">
+                <i class="fab fa-html5 3px"></i>
+
+                <i class="fab fa-js"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-react"></i>
+              </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
-              <div className="circle">
+              <div className="circle githubLink">
                 <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
               </div>
-              <h3>Github</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+              <a
+                className="githubLink"
+                href="https://github.com/neao002"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>Github</h3>
+              </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
@@ -40,16 +55,17 @@ const Services = () => {
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
               <h3>Web-Design</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-          </div>
+          </div>{" "}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faCoffee} size="2x" />
               </div>
               <h3>Back-End</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="backEndIcon">
+                <i class="fab fa-node"></i>
+              </div>
             </div>
           </div>
         </div>

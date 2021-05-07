@@ -18,8 +18,7 @@ const Aboutme = () => {
             Venezuela-Caracas and I'm Currently finishing my Full MERN stack
             year course in Digital Career Institute.. I'm passionate about
             researching and developing frontend and backend projects. I'm
-            constantly researching about new technologies so I can stay up to
-            date.
+            constantly employing new technologies so I can stay up to date.
           </p>
         </div>
       </div>

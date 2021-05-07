@@ -13,7 +13,7 @@ const Nabar = () => {
         <Navbar.Brand className="navbarbrand" href="#home">
           <img className="mylogonico" src={Nico} alt="nico" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic" />
+        <Navbar.Toggle variant="light" aria-controls="basic" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto navlinks buttonHover">
             <Link

@@ -60,7 +60,7 @@ const Contacts = () => {
     >
       <div className="contacts">
         <div className="text-center">
-          <h1 className="contactMe">Contact Me!</h1>
+          <h1 className="mr-5 contactMe">Contact Me!</h1>
           <span className="success-message bg-success mx-5">
             Please complete the form!
           </span>
@@ -70,13 +70,13 @@ const Contacts = () => {
         </div>
         <div className="container">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="row ">
+            <div className="row">
               <div className="col-md-6 col-xs-12 ">
                 {/* NAME INPUT */}
                 <div className="text-center">
                   <input
                     type="text"
-                    className="form-control containerContact"
+                    className="mb-2 form-control containerContact"
                     placeholder="Name"
                     name="name"
                     ref={register({
@@ -97,7 +97,7 @@ const Contacts = () => {
                 <div className="text-center">
                   <input
                     type="text"
-                    className="form-control containerContact"
+                    className=" mb-2 form-control containerContact"
                     placeholder="Phone Number"
                     name="phone"
                     ref={register({
@@ -113,7 +113,7 @@ const Contacts = () => {
                 <div className="text-center">
                   <input
                     type="email"
-                    className="form-control containerContact"
+                    className="mb-2 form-control containerContact"
                     placeholder="Email"
                     name="email"
                     ref={register({
@@ -133,7 +133,7 @@ const Contacts = () => {
                 <div className="text-center">
                   <input
                     type="text"
-                    className="form-control containerContact"
+                    className=" mb-3 form-control containerContact"
                     placeholder="Subject"
                     name="subject"
                     ref={register({
