@@ -290,8 +290,7 @@ body {
 }
 
 .experience h1 {
-  position: absolute;
-  left: 45%;
+  text-align: center;
   text-transform: uppercase;
   color: var(--primary-green);
   margin-top: 0rem;
@@ -372,7 +371,7 @@ body {
 /* Portafolio */
 
 .portafolio-wrapper {
-  background-color: var(--primary-gray-light);
+  background-color: rgb(161, 161, 228);
   padding: 3rem 0;
   /* width: 100%;
   height: auto; */
@@ -479,7 +478,6 @@ body {
 .contacts h1 {
   font-weight: 800 !important;
   color: purple !important;
-  margin-left: 45%;
   text-shadow: 2px 2px red;
 }
 
@@ -507,13 +505,12 @@ body {
 /* footer */
 
 .footerlogo img {
-  width: 10rem;
+  width: 15rem;
 }
 
-@media (max-width: 360) {
+@media (max-width: 360px) {
   .footerlogo img {
-    width: 50px;
-    margin-left: 200px;
+    width: 10rem;
   }
 }
 .footer-distributed {
