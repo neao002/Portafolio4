@@ -466,7 +466,6 @@ body {
   .contactForm {
     width: 100% !important;
     height: 100% !important;
-    margin-left: 30px !important;
   }
 }
 
@@ -508,9 +507,9 @@ body {
   width: 15rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .footerlogo img {
-    width: 10rem;
+    display: none;
   }
 }
 .footer-distributed {

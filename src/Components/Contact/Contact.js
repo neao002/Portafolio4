@@ -41,7 +41,7 @@ const Contacts = () => {
       .send(serviceID, templateID, variables, userID)
       .then(() => {
         setSuccessMessage(
-          "Form sent successfully! We Will contact you as soon as possible."
+          "Form sent successfully! I Will contact you as soon as possible."
         );
       })
       .catch((err) => console.error(`Something went wrong ${err}`));
@@ -61,12 +61,9 @@ const Contacts = () => {
       <div className="contacts">
         <div className="text-center">
           <h1 className="mr-5 contactMe">Contact Me!</h1>
-          <span className="success-message bg-success mx-5">
-            Please complete the form!
-          </span>
-          <span className="success-message bg-light mb-5">
-            {successMessage}
-          </span>
+
+          <br />
+          <span className=" bg-success  mb-5">{successMessage}</span>
         </div>
         <div className="container">
           <form onSubmit={handleSubmit(onSubmit)}>
